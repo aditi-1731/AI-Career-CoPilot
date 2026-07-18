@@ -1,0 +1,52 @@
+company,role,skills
+TechCorp,Data Science Intern,Python;ML;Pandas
+AI Labs,ML Intern,Python;TensorFlow;SQL
+WebWorks,Frontend Intern,HTML;CSS;React
+StartupX,Backend Intern,Python;Django;SQL
+DataHub,Data Analyst Intern,Excel;SQL;Python
+CloudNet,Cloud Intern,AWS;Linux;Networking
+FinTechPro,Data Science Intern,Python;Statistics;Pandas
+CodeBase,Software Intern,Java;DSA;OOP
+Appify,Android Intern,Kotlin;Java;Android
+Designify,UI UX Intern,Figma;Design;Prototyping
+CyberSafe,Cybersecurity Intern,Networking;Security;Linux
+BlockChainX,Blockchain Intern,Solidity;Ethereum;Web3
+GameDevCo,Game Developer Intern,Unity;C#;Game Design
+InsightAI,AI Intern,Python;Deep Learning;NLP
+MarketGenius,Marketing Intern,SEO;Content;Analytics
+EduTech,EdTech Intern,Python;Teaching;Content
+HealthTech,Data Analyst Intern,Python;SQL;Excel
+RoboTech,Robotics Intern,C++;Embedded Systems;Arduino
+NetSecure,Network Intern,Networking;Cisco;Security
+SmartApps,Full Stack Intern,React;Node.js;MongoDB
+BrightData,Data Science Intern,Python;ML;Visualization
+AlgoWorks,Algorithm Intern,DSA;Python;C++
+Cloudify,Cloud Engineer Intern,AWS;Docker;Kubernetes
+FinAnalytics,Finance Intern,Excel;Finance;Analytics
+DevSolutions,Backend Intern,Python;Flask;SQL
+NextGenAI,AI Research Intern,Python;PyTorch;ML
+UIExperts,Frontend Intern,HTML;CSS;JavaScript
+QuickApps,Mobile App Intern,Flutter;Dart;Firebase
+SecureIT,Cybersecurity Intern,Ethical Hacking;Linux;Security
+DataMinds,Data Analyst Intern,Power BI;SQL;Excel
+VisionAI,Computer Vision Intern,Python;OpenCV;DL
+TechBridge,Software Intern,Java;Spring Boot;SQL
+CloudCore,DevOps Intern,Docker;CI/CD;AWS
+InsightTech,Business Analyst Intern,Excel;SQL;Communication
+GreenTech,IoT Intern,Arduino;Sensors;Embedded Systems
+AutoSoft,Automation Intern,Python;Selenium;Testing
+CreativeLabs,Graphic Design Intern,Photoshop;Illustrator;Design
+HRTech,HR Intern,Communication;Recruitment;Management
+ContentHub,Content Writing Intern,Writing;SEO;Research
+SalesPro,Sales Intern,Communication;CRM;Negotiation
+DataVizPro,Data Visualization Intern,Tableau;Python;Charts
+BioTechX,Bioinformatics Intern,Python;Biology;Data Analysis
+QuantumSoft,Research Intern,Python;Math;Algorithms
+TravelTech,Web Intern,HTML;CSS;JavaScript
+MediaWorks,Video Editing Intern,Premiere Pro;Editing;Creativity
+StartupHub,Operations Intern,Management;Excel;Coordination
+LegalEase,Legal Intern,Law;Research;Documentation
+EduCore,Teaching Intern,Teaching;Communication;Subject Knowledge
+FitTech,Health Data Intern,Python;Analytics;Health Data
+AgriTech,Agriculture Intern,IoT;Sensors;Data Collection
+SpaceTech,Engineering Intern,C++;Physics;Simulation
