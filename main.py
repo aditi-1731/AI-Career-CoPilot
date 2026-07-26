@@ -1,8 +1,9 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
+from app.core.config import settings
 import requests
-from agents.internship_sprint_agent import run_internship_sprint_agent
-from agents.daily_planner_agent import run_daily_planner_agent
+from app.agents.internship_sprint_agent import run_internship_sprint_agent
+from app.agents.daily_planner_agent import run_daily_planner_agent
 
 app = FastAPI()
 
