@@ -8,7 +8,7 @@
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Version](https://img.shields.io/badge/Version-v0.1.0-blue)
-![Version](https://img.shields.io/badge/Version-v2.0.0--alpha-blue)
+![Version](https://img.shields.io/badge/Version-v2.0.0--dev-orange)
 
 ---
 
