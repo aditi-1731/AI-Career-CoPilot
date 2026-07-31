@@ -7,9 +7,8 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Version](https://img.shields.io/badge/Version-v0.1.0-blue)
-![Version](https://img.shields.io/badge/Version-v2.0.0--dev-orange)
-
+![Version](https://img.shields.io/badge/Version-v0.2.0--dev-orange)
+![Status](https://img.shields.io/badge/Status-Under_Development-orange)
 ---
 
 # 📌 Overview
@@ -29,15 +28,38 @@ Originally developed during an Agentic AI Workshop Hackathon, the project is now
 
 ---
 
+## 🏛 Architecture
+
+```text
+                Client
+                   │
+                   ▼
+        FastAPI Authentication API
+                   │
+                   ▼
+             Service Layer
+                   │
+                   ▼
+               CRUD Layer
+                   │
+                   ▼
+           SQLAlchemy ORM
+                   │
+                   ▼
+             PostgreSQL Database
+```
+
 # ✨ Current Features
 
 ## ✅ Authentication
 
-- User Registration
-- Secure Login
+- User Registration API
+- User Login API
 - JWT Authentication
-- Password Hashing using Passlib + bcrypt
+- Password Hashing (bcrypt)
 - Token Verification
+- Exception Handling
+- Swagger Documentation
 
 ## ✅ Database
 
@@ -56,11 +78,18 @@ Originally developed during an Agentic AI Workshop Hackathon, the project is now
 - Pydantic v2 Validation
 - Environment-based Configuration
 
+## 🔐 Security
+
+- JWT Authentication
+- bcrypt Password Hashing
+- Environment-based Secrets
+- Input Validation using Pydantic
+- Custom Exception Handling
+
 ---
 
 # 🚧 Upcoming Features
 
-- Authentication API Endpoints
 - User Profile Management
 - Internship Recommendation Agent
 - Resume Builder
@@ -209,6 +238,24 @@ uvicorn main:app --reload
 
 ---
 
+## 📚 API Documentation
+
+After running the server:
+
+Interactive API documentation is automatically generated using FastAPI.
+
+- Swagger UI → http://127.0.0.1:8000/docs
+- ReDoc → http://127.0.0.1:8000/redoc
+
+
+## 🔌 Current API Endpoints
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| POST | `/api/v1/auth/register` | Register a new user |
+| POST | `/api/v1/auth/login` | Login and receive JWT |
+
+
 # 📊 Development Progress
 
 - [x] Project Setup
@@ -219,7 +266,8 @@ uvicorn main:app --reload
 - [x] JWT Authentication
 - [x] CRUD Layer
 - [x] Service Layer
-- [ ] Authentication API
+- [x] Authentication API
+- [ ] Protected Routes
 - [ ] User Profile API
 - [ ] Internship Recommendation Engine
 - [ ] Resume Builder
@@ -232,25 +280,55 @@ uvicorn main:app --reload
 # 🛣️ Roadmap
 
 ### v0.1.0
-- Authentication Backend
-- Database Integration
+- ✔ Authentication
+- ✔ Database
+- ✔ JWT
+- ✔ CRUD
+- ✔ Service Layer
 
 ### v0.2.0
-- User Profile Management
+- □ Protected Routes
+- □ User Profile API
 
 ### v0.3.0
-- AI Internship Recommendation
+- □ Internship Recommendation Engine
 
 ### v0.4.0
-- Resume Builder
+- □ Resume Builder
+- □ ATS Scoring
 
 ### v0.5.0
-- Study Planner & Scheduler
+- □ Daily Planner
+- □ Scheduler
 
 ### v1.0.0
-- Production-ready AI Career Copilot
+- □ Complete AI Career Copilot Platform
 
 ---
+## 🤖 Planned AI Modules
+
+- Internship Recommendation Agent
+- Resume Analyzer
+- ATS Resume Optimizer
+- Skill Gap Analyzer
+- Interview Preparation Agent
+- Study Planner Agent
+
+---
+
+## 🎯 Long-Term Vision
+
+The backend will evolve into a modular AI platform consisting of:
+
+- Authentication Service
+- User Profile Service
+- Internship Recommendation Agent
+- ATS Resume Builder
+- Resume Optimizer
+- Skill Gap Analyzer
+- Study Planner Agent
+- Interview Preparation Agent
+- Notification Scheduler
 
 # 📄 License
 
