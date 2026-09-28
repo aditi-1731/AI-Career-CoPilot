@@ -29,28 +29,6 @@ The long-term goal is to bring multiple career preparation activities into one p
 - 📈 Career progress tracking
 
 ---
-
-# 📈 Project Evolution
-
-The project is being developed incrementally.
-
-```text
-v1.0.0
-Initial AI Prototype
-Python + n8n
-        │
-        ▼
-v1.1.0
-Backend Foundation
-FastAPI + PostgreSQL + JWT
-        │
-        ▼
-v2.0.0
-Full-Stack AI Career Copilot
-Backend + Frontend + AI Services
-
-```
----
 ## 📈 Project Evolution
 
 The project is being developed incrementally, with each major version representing a stage in its architecture and functionality.
@@ -309,6 +287,21 @@ The planner will consider:
 - User progress
 - Target timeframe
 
+### 🎤 Interview Preparation Agent
+
+The Interview Preparation Agent will provide role-specific preparation for:
+
+- Technical interviews
+- DSA
+- Core CS subjects
+- Project discussions
+- Behavioral interviews
+- Frequently asked questions
+
+### 🤖 Career Guidance Agent
+
+A future AI career guidance module will help users create structured career plans based on their goals, skills, interests, and progress.
+
 Example workflow:
 
 ```text
@@ -357,7 +350,6 @@ Progress Tracking
 | GitHub | Repository and releases |
 | VS Code | Development |
 | Swagger / OpenAPI | API documentation and testing |
-| PostgreSQL | Local development database |
 ---
 
 ## 📂 Project Structure
@@ -417,22 +409,29 @@ cd AI-Career-CoPilot
 Navigate to the backend:
 
 cd backend
+```
 Create Virtual Environment
+```
 python -m venv venv
+```
 Windows PowerShell
+```
 .\venv\Scripts\Activate.ps1
+```
 Windows CMD
+```
 venv\Scripts\activate
+```
 Install Backend Dependencies
+```
 pip install -r requirements.txt
 ```
 
 ### 🔐 Configure Environment Variables
 
 Create a .env file inside the backend/ directory.
-```
 Example:
-
+```
 DATABASE_URL=postgresql://username:password@localhost:5432/careercopilot
 
 SECRET_KEY=your_secret_key
@@ -440,11 +439,11 @@ SECRET_KEY=your_secret_key
 ALGORITHM=HS256
 
 ACCESS_TOKEN_EXPIRE_MINUTES=60
-
+```
 ⚠️ Never commit your .env file to GitHub.
 
 The repository should contain an example environment file such as:
-
+```
 .env.example
 ```
 
@@ -453,8 +452,9 @@ The repository should contain an example environment file such as:
 Make sure PostgreSQL is running and the required database exists.
 
 From the backend/ directory, run:
-
+```
 alembic upgrade head
+```
 ▶️ Start the Backend
 
 From the backend/ directory:
@@ -563,7 +563,7 @@ pytest
 - Daily planner
 - Notification scheduler
 
-## 🔜 Planned
+### 🔜 Planned
 - AI interview preparation
 - Career guidance agent
 - RAG-based career recommendations
@@ -749,4 +749,4 @@ See the LICENSE file for more information.
 
 ## 👩‍💻 Author
 
-** Aditi Tripathi **
+### **Aditi Tripathi**
