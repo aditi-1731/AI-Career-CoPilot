@@ -1,18 +1,46 @@
-# Environment variables
-.env
-
-# Virtual environment
-venv/
-
+# =========================
 # Python
+# =========================
 __pycache__/
-*.pyc
-
-# VS Code
-.vscode/
-
-# Pytest
-.pytest_cache/
-
-# Alembic cache
 *.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node / Next.js
+# =========================
+node_modules/
+.next/
+out/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Build / cache
+# =========================
+dist/
+build/
